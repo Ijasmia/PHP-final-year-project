@@ -1,0 +1,70 @@
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+
+
+body {
+    background: #eee
+}
+
+.icons i {
+    color: #b5b3b3;
+    border: 1px solid #b5b3b3;
+    padding: 6px;
+    margin-left: 4px;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.activity-done {
+    font-weight: 600
+}
+
+.list-group li {
+    margin-bottom: 12px
+}
+
+.list-group-item {}
+
+.list li {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #e3dada;
+    margin-top: 12px;
+    border-radius: 5px;
+    background: #fff
+}
+
+.checkicon {
+    color: green;
+    font-size: 19px
+}
+
+.date-time {
+    font-size: 12px
+}
+
+.profile-image img {
+    margin-left: 3px
+}

@@ -1,0 +1,222 @@
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+
+
+
+.mt-100 {
+    margin-top: 100px
+}
+
+.carousel .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    text-indent: -99px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 2px
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ width: 100%;
+ 
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ 
+  
+  
+}
+
+.cards_item {
+    
+  display: flex;
+  padding: 0.25rem;
+}
+
+@media (min-width: 20rem) {
+  .cards_item {
+    width: 50%;
+	 padding: 0.45rem;
+  }
+  
+ 
+ 
+
+@media (min-width: 30rem) {
+  .cards_item {
+    width: 50%;
+	 padding: 0.45rem;
+	 
+  }
+  
+ 
+  
+}
+
+
+@media (min-width: 32rem) {
+  .cards_item {
+    width: 33.3333%;
+     padding: 0.70rem;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 25%;
+     padding: 0.70rem;
+  }
+}
+
+@media (min-width: 66rem) {
+  .cards_item {
+    width: 20%;
+     padding: 1rem;
+  }
+}
+
+.card {
+  background: linear-gradient(to bottom left, #fff 40%, #fff 100%);
+  border-radius: 0.50rem;
+  box-shadow: 0 40px 80px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 0.25rem;
+  background: linear-gradient(to bottom left, #fff 40%, #fff 100%);
+}
+
+.card_title {
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+  
+  text-align: center;
+}
+
+.card_text {
+  color: #000;
+  font-size: 0.775rem;
+  line-height: 1.5;
+  margin-bottom: 0.1rem;    
+  font-weight: 200;
+}
+
+.card_image{
+   
+    
+   min-height: 150px;
+    min-width: 150px;
+   
+     height:150px;
+         font-weight: bold;
+   word-break: break-all;
+  
+}
+
+.addprice{
+   
+    text-align: right;
+	 font-size: 0.8em;
+
+}
+
+
+.active { 
+    background-color: #404040;
+    color: #FFF;
+}
+
+
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+    width: 100%;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.dropdown {
+    position:static !important;
+}
+@media screen and (min-width: 768px) {
+    #adv-search {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width:400px;
+    }
+}

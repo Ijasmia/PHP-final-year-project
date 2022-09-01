@@ -1,0 +1,174 @@
+h1{
+	
+	font-size: 28px;
+	 font-weight: bold;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+  font-family: arial;
+  padding: 10px;
+  
+   background-color: #91a3b0;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.butt {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.imagep {
+ border-radius: 20px;
+}
+
+.postAds{
+  float:right;
+  padding: 3px 6px;
+  text-align: center;
+  text-decoration: none;
+   font-family: Arial;
+  font-size: 14px;
+  color: #ffffff;
+  text-shadow: -1px -1px 2px #918926;
+ background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #000),color-stop(.35, #996666),color-stop(1, #000));
+  border: 1px solid #618926;
+  border-radius: 20px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+   cursor: pointer;
+  
+}
+
+
+.myhome{
+    float:left;
+  padding: 3px 6px;
+  text-align: center;
+  text-decoration: none;
+   font-family: Arial;
+  font-size: 14px;
+  color: #ffffff;
+  text-shadow: -1px -1px 2px #918926;
+ background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #000),color-stop(.35, #9B59B6 ),color-stop(1, #000));
+  border: 1px solid #618926;
+  border-radius: 20px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+   cursor: pointer;
+}
+
+.buttn{
+  
+  text-align: center;
+  text-decoration: none;
+   font-family: Arial;
+  font-size: 12px;
+  color: #000;
+  border-radius: 1px;
+ 
+   cursor: pointer;
+}
+
+.buttn:hover {
+  background-color:green;
+}
+
+.verify{
+   
+  padding: 1px 2px;
+  text-align: center;
+  text-decoration: none;
+   font-family: Arial;
+  font-size: 12px;
+  color: #ffffff;
+  
+ background:red;
+  border-radius: 10px;
+ 
+   cursor: pointer;
+}
+.myteam{
+    float:right;
+  padding: 3px 6px;
+  text-align: center;
+  text-decoration: none;
+   font-family: Arial;
+  font-size: 14px;
+  color: #000;
+  text-shadow: -1px -1px 2px #918926;
+ background:#A6ACAF ;
+  border-radius: 2px;
+ 
+   cursor: pointer;
+}
+.update{
+   
+ padding: 1px 2px;
+  text-align: center;
+  text-decoration: none;
+   font-family: Arial;
+  font-size: 12px;
+  color: #000;
+ 
+ background: #1ABC9C;
+  border-radius: 10px;
+ 
+   cursor: pointer;
+}
+.relod{
+    float:right;
+  padding: 3px 6px;
+  text-align: center;
+  text-decoration: none;
+   font-family: Arial;
+  font-size: 14px;
+  color: #000;
+ 
+ background: #71E10E;
+  border-radius: 10px;
+ 
+   cursor: pointer;
+}
+.invite{
+    float:left;
+  padding: 3px 6px;
+  text-align: center;
+  text-decoration: none;
+   font-family: Arial;
+  font-size: 14px;
+  color: #000;
+ 
+ background: #4E86F6;
+  border-radius: 10px;
+ 
+   cursor: pointer;
+}
+.more{
+    float:right;
+  padding: 3px 6px;
+  text-align: center;
+  text-decoration: none;
+   font-family: Arial;
+  font-size: 14px;
+  color: #000;
+ 
+ background: #EAB21C;
+  border-radius: 10px;
+ 
+   cursor: pointer;
+}
+
+.balance{
+     text-align: center;
+}

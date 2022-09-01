@@ -1,0 +1,13 @@
+
+.card {
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 1.2);
+  max-width: 500px;
+
+  margin: auto;
+  text-align: left;
+  font-family: arial;
+  padding: 10px;
+  
+   background-color: #bcb88a;
+}
+
